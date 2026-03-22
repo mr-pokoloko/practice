@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: headBanner ;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: head1;
+    src: url(Caveat-VariableFont_wght.ttf);
+}
+
+header{
+    background-color: rgb(242, 166, 212);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: lowercase;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.nav ul li{
+    /* height: 30px; */
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.yellowHighlight{
+    color: yellow;
+    font-style: italic;
+    font-size:40px;
+       
+}
+.greenHighlight{
+    color: green;
+    font-family: headBanner;
+    font-size: 40px;
+}
+#login{
+    padding: 5px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 2px 2px 3px #fd664e;
+    width: 100px;
+    background: linear-gradient(to right,#ffb200,#ffeb63
+,#fff896,#ffffff);
+    
+}
+.headBanner{
+    font-family: headBanner;
+    background-image: url(bg2.jpg);
+background-size: cover;
+    color: yellow;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    font-size: 200px;
+    text-shadow: 0px 2px 3px rgb(255, 0, 234), 0px -2px 3px rgb(0, 255, 217);
+}
+#head1{
+    font-family: head1;
+    padding: 50px 0px 0px 60px ;
+}
+.intro{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    height:150vh ;
+    width: 99%;
+    padding: 20px 0px 15px 15px;
+}
+#cnt{
+    font-size: 18px;
+    padding: 0px 35px 40px 35px;
+    
+}
+.glass{
+   
+    border-radius: 30px;
+    width: 560px;
+    height: 1100px;
+    backdrop-filter: blur(8px) brightness(1.1);
+    background-color: rgba(255, 255, 255, 0.404);
+}
+#head2{
+    font-family: head1;
+    font-size: 90px;
+}
+.item img{
+     height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px
+}
+.food{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(bg4.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 140vh;   
+}
+.items{
+    height: 140vh;
+    width: 100%;
+     gap: 15px;
+     align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.description{
+    position: relative;
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 270vh;
+}
+#cnt2{
+    padding-top: 35px;
+    text-align: center;
+    font-size: 30px;
+}
+.glass2{
+    position: absolute;
+    right:25%;
+    bottom: 15%;
+    border-radius: 30px;
+    width: 680px;
+    height: 1600px;
+    backdrop-filter: blur(8px) brightness(1.3);
+    background-color: #93283839;
+}
+.anime{
+    position: relative;
+    background-image:url(bg5.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.glass3{
+    position: absolute;
+    bottom: 20%;
+    padding: 15px ;
+    right:42%;
+    bottom: 10%;
+    /* align-items: center; */
+    justify-items: center;
+    border-radius: 30px;
+    width: 815px;
+    height: 530px;
+    backdrop-filter: blur(8px) brightness(1.3);
+    background-color: #b7b7b75c;
+}
+.head3{
+    font-family: head1;
+    font-size: 90px;
+}
